@@ -1,0 +1,100 @@
+*{margin:0px;
+padding:0px;
+}
+
+
+body {
+	font-family:Arial, Palatino Linotype, sans-serif; /*Tipo da fonte*/
+	color:#FFF; /* cor da fonte */
+	font-size:12px; /* tamanho da fonte */
+	background-image:url(../img/futbom.jpg); /* cor do background */
+	background-repeat:no-repeat;
+}
+
+
+.cabecalho{
+	width:980px;         /* Largura */
+	height:262px;     /* Altura */
+	margin:auto;     /* Margin deixa a div centralizada na página */
+}
+/* Aqui defino o Tamanho do topo do site  Logo Banner e Menu */
+
+.logo{
+	width:410px;
+	height:220px;
+	float:left;     
+}
+
+
+.banner { 
+    width:570px;
+	height:220px;
+	float:left;
+}
+
+.menu {
+	width:980px;
+	height:32px;
+	padding-top:10px; 
+	
+	background-image:url(../img/bg-menu.jpg);
+	background-repeat:no-repeat; 
+	float:left;
+	
+}
+.menu a{  
+
+	text-decoration:none;  
+	font-size:16px;
+	padding-left:15px;
+	color:#CCC;
+}
+
+/* Termina aqui o cabeçalho */
+
+/* conteúdo  */
+
+.conteudo { 
+	width:980px;
+	height:408px;
+	background-color:#CCC;
+	color:#000;
+	margin:auto;
+}
+.conteudo h1{
+	color:black;
+	padding-left:15px;
+	padding-top:10px;
+}
+.conteudo p{
+	padding-left:15px;
+	padding-top:10px;
+	font-size:14px;
+}
+.texto{
+	width:650px;
+	height:auto; 
+	float:left;
+}
+.foto{
+	width:330px;
+	height:auto;
+	float:left;
+}
+
+.foto img{
+	padding:15px; 
+}
+
+/* Termina aqui o conteúdo  */
+
+.rodape{
+	width:965px;
+	height:28px;
+	background-image:url(../img/bg-rodape.jpg);
+	background-repeat:no-repeat;
+	padding-top:70px;
+	padding-left:15px;
+	margin:auto;
+
+}
